@@ -57,7 +57,8 @@ export default class Header extends Component {
           <Container>
           <Row>
           <Col>
-           <h3 style={{fontFamily:"Georgia", padding: "12.5px", borderBottom: "1px solid #000"}} >Booking Request</h3>
+          <ModalHeader> Booking Request</ModalHeader>
+           
            <p>Thank you for choosing Clean Body, please fill out the form and one of our specialist would contact you shorty for a confimation.</p>
           </Col>
           <Col style={{background:"#8D8741"}}>
