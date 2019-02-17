@@ -1,0 +1,54 @@
+.grid-stylist {
+    background-color: #252525;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    padding: 10px;
+    grid-gap: 50px;
+} 
+.card {
+    background-color: transparent !important;
+    border-radius: none;
+    border: none;
+}
+.bg-img {
+    background-size: cover;
+    min-height: 180px;
+    background-position: center;
+    background-color: #ccc;
+}
+
+.card-img_1 {
+    min-height: 180px; 
+    background: url('../Resources/stylist1.jpg') no-repeat center;
+    background-size: contain;      
+}
+.card-img_2 {    
+    min-height: 180px; 
+    background: url('../Resources/stylist2.jpg') no-repeat center;
+    background-size: contain; 
+}
+.card-img_3 {
+    min-height: 180px; 
+    background: url('../Resources/stylist4.jpg') no-repeat center;
+    background-size: contain; 
+}
+.card-img_4 {
+    min-height: 180px; 
+    background: url('../Resources/stylist5.jpg') no-repeat center;
+    background-size: contain; 
+}
+.card-img_5 {
+    min-height: 180px; 
+    background: url('../Resources/stylist6.jpg') no-repeat center;
+    background-size: contain; 
+}
+.section-services:before, .section-services:after{
+    position: relative;
+    content: "";
+    width: 30%;
+    left: 35%;
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-bottom: 5px dotted #4ABDAC;
+}

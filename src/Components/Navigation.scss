@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+.smaller {
+    height: 25px;
+}
+.navbar {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.navbar-brand {
+    color: #fff !important;
+    font: 'Mali' !important;
+    font-weight: 700;
+}
+.nav-link {
+    color: #fff !important;
+    padding: .25rem .5rem; 
+    &:hover {
+    text-decoration: underline;
+    color: #4ABDAC !important;
+    }
+}
+.fixed-top{ 
+    -webkit-transition:padding 0.2s ease;
+    -moz-transition:padding 0.2s ease; 
+    -o-transition:padding 0.2s ease;        
+    transition:padding 0.2s ease;  
+  }
+.affix {
+    padding-top: 1.2em !important;
+    padding-bottom: 1.2em !important;
+    -webkit-transition:padding 0.2s linear;
+    -moz-transition:padding 0.2s linear;  
+    -o-transition:padding 0.2s linear;         
+    transition:padding 0.2s linear;  
+} 
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(175,132,71, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}

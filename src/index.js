@@ -2,17 +2,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter } from 'react-router-dom';
-import './index.css';
+import './index.scss';
 
 import App from './App/App';
 
 import * as serviceWorker from './serviceWorker';
-
-
-//import 'bootstrap/dist/css/bootstrap.min.css';
-//import 'settings';
-//import 'foundation';
-//import 'tachyons';
 
 ReactDOM.render((
     <BrowserRouter>
