@@ -1,0 +1,15 @@
+.modal-header {
+    justify-content: center;
+}
+.modal-title {
+    position: absolute;
+    
+}
+
+.modal-dialog {
+    width: 50%;
+
+}
+.modal-body {
+    background-color: #B6A19E;
+}
