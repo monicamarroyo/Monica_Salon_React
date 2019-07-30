@@ -1,0 +1,170 @@
+.section_location {
+    position: relative;
+    height: 300px;
+    background-image: linear-gradient(#4edfca, #4ABDAC);
+  }
+  
+  .section_location--text {
+    padding: 45px 0;
+    font: 44px ;
+    text-align: center;
+  }
+  
+  .section_location .section_location--text {
+    color: white;
+  }
+  
+  svg {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+  }
+  
+  @media (max-width: 699px) {
+    .svg--lg {
+      display: none;
+    }
+  }
+  
+  @media (min-width: 700px) {
+    .svg--sm {
+      display: none;
+    }
+  }
+ 
+  .location-text-1:before, .location-text-1:after{
+    position: relative;
+    content: "";
+    width: 15%;
+    left: 43%;
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-bottom: 5px dotted #4ABDAC;
+}
+.loc_address {
+    color:#484848;
+    @media (max-width:575px) {
+        text-align: center;
+        font-size: 1.25rem;
+    }
+}
+.loc_address-text-2 {
+    @media(max-width: 575px) {
+        text-align: center;
+        font-size: 2rem;
+    }
+}
+.loc_table {
+    @media (max-width: 575px) {
+        padding:50px;
+    }
+}
+.loc_table_heading {
+    @media (max-width:575px) {
+        text-align: center;
+        font-size: 2rem;
+    }
+}
+
+/*
+575
+ h3:before{
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 1px;
+    bottom: 0;
+    left: 25%;
+    border-bottom: 1px solid red;
+}
+  .custom-underline::after {
+    top: 65%;
+    height: 2px !important;
+    width: 40%;
+    left: 30%;
+    background-color: rgba(179, 19, 19, 0.6);
+      transition: 0.4s ease-out all .1s;
+  }
+  
+   .custom-underline:hover {
+    width: 90%;
+    left: 5%;
+      transition: 0.5s ease all;
+  }
+.grid-container-location {
+    box-sizing: border-box;
+    display: grid;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    overflow: hidden;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    background-color: #00c5b1;
+}
+.location-left {
+    width: 40%;
+    margin-top: 10px;
+    float: left;
+    line-height: 1.6rem;
+    padding-bottom: 10px;
+}
+.location-right {
+    margin-top: 10px;
+    width: 56%;
+    float: right;
+    padding-bottom:10px; 
+}
+.locations-sides {
+    overflow: hidden;
+}
+.locations-sides .location-item {   
+    
+    @media (min-width:655px){
+     box-sizing: border-box;
+     margin: 0;
+     transform: skew(-10deg);
+     -moz-transform: skew(-10deg);
+     -webkit-transform: skew(-10deg);
+     width:90%;
+    }
+}
+.loc_table {
+    font-size: .60rem;
+    color: #fff;
+    
+    @media (max-width: 654px) {
+        font-size: 1rem;
+    }
+}
+.loc_address {
+    color: #fff;
+    font-size: .75rem;
+    margin: 0 0 0 0;
+    @media (max-width: 654px) {
+     font-size: 1rem;
+     margin-left: 10%;
+    }
+}
+.locations-sides .location-item:nth-of-type(1) {
+    z-index: 4;
+    margin: 0 0 0 -10%;
+    background-image: 
+      linear-gradient(
+          rgba(0, 197, 177, 0.5),
+          rgba(0, 197, 177, 0.5)),
+      url(../Resources/austin.jpg);
+    position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    @media (max-width: 654px) {
+      height: 200px;
+    }
+}
+    
+.locations-sides .location-item:nth-of-type(2) {
+    z-index: 3;
+    margin: 0 -10% 0 0;
+    background-color:#00c5b1;
+}
+*/
