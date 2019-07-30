@@ -25,27 +25,27 @@ export default class Footer extends Component {
                 style={{ color: "#fff" }}
               >
                 <a className="gh-ic" href="https://github.com/monicamarroyo"
-                    target="_blank">
+                    target="_blank" rel="noopener noreferrer">
                   <i className="fab fa-github white-text mr-4"> </i>
                 </a>
 
                 <a className="li-ic" href="https://www.linkedin.com/in/monica-arroyo-765b7111a/"
-                    target="_blank">
+                    target="_blank" rel="noopener noreferrer">
                   <i className="fab fa-linkedin-in white-text mr-4"> </i>
                 </a>
 
                 <a className="gplus-ic"  href="https://plus.google.com/u/0/102825695436822534554"
-                    target="_blank">
+                    target="_blank" rel="noopener noreferrer">
                   <i className="fab fa-google-plus-g white-text mr-4"> </i>
                 </a>
 
                 <a className="tw-ic"  href="https://twitter.com"
-                    target="_blank">
+                    target="_blank"rel="noopener noreferrer">
                   <i className="fab fa-twitter white-text mr-4"> </i>
                 </a>
 
                 <a className="ins-ic"   href="https://instagram.com"
-                    target="_blank">
+                    target="_blank"rel="noopener noreferrer">
                   <i className="fab fa-instagram white-text"> </i>
                 </a>
               </div>
@@ -86,16 +86,16 @@ export default class Footer extends Component {
                 style={{ width: "60px" , backgroundColor: '#37474F'}}
               />
               <p style={{ fontSize: ".75rem" }}>
-                <a href="https://getbootstrap.com/" target="_blank">Bootstrap 4</a>
+                <a href="https://getbootstrap.com/" target="_blank" rel="noopener noreferrer">Bootstrap 4</a>
               </p>
               <p style={{ fontSize: ".75rem" }}>
-                <a href="https://material-ui.com/" target="_blank">Material-UI</a>
+                <a href="https://material-ui.com/" target="_blank"rel="noopener noreferrer">Material-UI</a>
               </p>
               <p style={{ fontSize: ".75rem" }}>
-                <a href="https://reactjs.org/" target="_blank">React JS</a>
+                <a href="https://reactjs.org/" target="_blank"rel="noopener noreferrer">React JS</a>
               </p>
               <p style={{ fontSize: ".75rem" }}>
-                <a href="https://yarnpkg.com/en/" target="_blank">Yarn JS</a>
+                <a href="https://yarnpkg.com/en/" target="_blank"rel="noopener noreferrer">Yarn JS</a>
               </p>
             </div>
 
@@ -151,6 +151,7 @@ export default class Footer extends Component {
           </div>
         </div>
 
+
         <div
           className="footer-copyright text-center py-3"
           style={{
@@ -161,7 +162,7 @@ export default class Footer extends Component {
         >
           © 2018 Copyright: Monica Arroyo inspired by 
           <a
-            href="https://urbanhair-atx.com" target="_blank"
+            href="https://urbanhair-atx.com" target="_blank"rel="noopener noreferrer"
             style={{ fontSize: ".75rem" }}
           >
             {" "}

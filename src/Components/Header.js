@@ -11,6 +11,7 @@ export default class Header extends Component {
           <div className="col-md order-2 order-md-1 align-self-center header_img_container">
             <img
               className="header_img img-fluid"
+              alt=""
               src={photo}
               style={{
                 outline: "8px solid #4ABDAC",
