@@ -1,0 +1,36 @@
+.container-fluid {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.grid-services {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    grid-gap: 30px;
+    align-items: stretch;
+    padding:0;
+    padding-bottom: 60px;
+    border-bottom: 25px solid #00c5b1;
+}
+.img-container {
+    background-color: #00c5b1;
+    width: 98px;
+    height: 98px;
+    padding: 25px;
+    display: block;
+    border-radius: 500px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+}
+.section-services:before, .section-services:after{
+    position: relative;
+    content: "";
+    width: 30%;
+    left: 35%;
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-bottom: 5px dotted #4ABDAC;
+}

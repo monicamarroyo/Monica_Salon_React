@@ -1,0 +1,9 @@
+sudo: required
+services: 
+  - docker
+
+  before_install: 
+    - docker build -t Monica_Salon_React/client -f Dockerfile.dev .
+  
+  script: 
+    - docker run Monica_Salon_React/client npm run test -- --coverage
