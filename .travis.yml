@@ -1,9 +1,9 @@
 sudo: required
-services: 
+services:
   - docker
 
-  before_install: 
-    - docker build -t monimarr/client -f Dockerfile.dev .
-  
-  script: 
-    - docker run monimarr/client npm run test -- --coverage
+before_install:
+  - docker build -t monimarr/client -f Dockerfile.dev .
+
+script:
+  - docker run monimarr/client npm run test -- --coverage
