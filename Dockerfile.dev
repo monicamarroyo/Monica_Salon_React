@@ -5,7 +5,7 @@ WORKDIR '/app'
 #copy the package.json file to the current image in the root directory
 COPY package.json .
 #install all the dependencies for the project
-RUN yarn install
+RUN npm install
 #copy the new installed dependencies to the container that created during npm install
 COPY . . 
 # finally start the server

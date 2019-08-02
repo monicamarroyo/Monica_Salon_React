@@ -3,7 +3,7 @@ services:
   - docker
 
   before_install: 
-    - docker build -t monicamarroyo/Monica_Salon_React -f Dockerfile.dev .
+    - docker build -t monimarr/client -f Dockerfile.dev .
   
   script: 
-    - docker run monicamarroyo/Monica_Salon_React npm run test -- --coverage
+    - docker run monimarr/client npm run test -- --coverage
