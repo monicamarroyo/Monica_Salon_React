@@ -8,9 +8,8 @@ before_install:
 
 script:
   - docker run monimarr/client npm run test -- --coverage
-
+install: travis_wait mvn install
 deploy:
-  install: travis_wait mvn install
   provider: elasticbeanstalk
   region: "us-east-2" #get from the url
   app: "docker-react" #application name
