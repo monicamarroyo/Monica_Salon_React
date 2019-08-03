@@ -5,10 +5,6 @@ services:
 
 before_install:
   - docker build -t monimarr/client -f Dockerfile.dev .
-
-script:
-  - docker run monimarr/client npm run test -- --coverage
-install: travis_wait mvn install
 deploy:
   provider: elasticbeanstalk
   region: "us-east-2" #get from the url
@@ -21,3 +17,6 @@ deploy:
   access_key_id: $AWS_ACCESS_KEY
   secret_access_key:
     secure: $SECRET_KEY
+script:
+  - docker run monimarr/client npm run test -- --coverage
+
