@@ -1,5 +1,5 @@
 sudo: required
-install: travis_wait mvn install
+
 services:
   - docker
 
@@ -10,6 +10,7 @@ script:
   - docker run monimarr/client npm run test -- --coverage
 
 deploy:
+  install: travis_wait mvn install
   provider: elasticbeanstalk
   region: "us-east-2" #get from the url
   app: "docker-react" #application name
