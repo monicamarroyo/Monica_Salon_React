@@ -35,3 +35,19 @@ export default class Header extends Component {
     );
   }
 }
+
+/*
+deploy:
+  provider: elasticbeanstalk
+  region: "us-east-2" #get from the url
+  app: "docker-react" #application name
+  env: "DockerReact-env"
+  bucket_name: "elasticbeanstalk-us-east-2-778531540051"
+  bucket_path: "docker-react" #same as application name
+  on:
+    branch: master #means whenever pushed code to master 
+  access_key_id: $AWS_ACCESS_KEY
+  secret_access_key:
+    secure: $SECRET_KEY
+
+*/
