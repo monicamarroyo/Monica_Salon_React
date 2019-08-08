@@ -51,3 +51,17 @@ deploy:
     secure: $SECRET_KEY
 
 */
+
+/*
+deploy:
+  provider: elasticbeanstalk
+  access_key_id:
+    secure: $AWS_ACCESS_KEY
+  secret_access_key:
+    secure: $SECRET_KEY
+  region: "us-east-2"
+  app: "docker-react"
+  env: "DockerReact-env"
+  bucket_name: "elasticbeanstalk-us-east-2-778531540051"
+
+*/
