@@ -12,6 +12,5 @@ RUN npm run build
 #I used nginx image from alpine to copy over the result of npm run build- which is responisble for running the server in container
 FROM nginx
 #nginx consumes port 80 - from dockerhub documentation
-EXPOSE 80
 #copy over the builder phase- which folder we want to copy and should go
 COPY --from=builder /app/build /usr/share/nginx/html
