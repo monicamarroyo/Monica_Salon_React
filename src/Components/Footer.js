@@ -151,7 +151,6 @@ export default class Footer extends Component {
           </div>
         </div>
 
-
         <div
           className="footer-copyright text-center py-3"
           style={{
