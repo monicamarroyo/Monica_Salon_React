@@ -1,8 +1,5 @@
 sudo: required
-git:
-  depth: 25
-  quiet: true
-  
+
 services:
   - docker
 
