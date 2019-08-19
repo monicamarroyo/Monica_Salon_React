@@ -1,0 +1,12 @@
+#from node image version, we need a base image
+FROM node:12.6.0-alpine
+#make the working directory to be root directory
+WORKDIR '/app'
+#copy the package.json file to the current image in the root directory
+COPY package.json .
+#install all the dependencies for the project
+RUN npm install
+#copy the new installed dependencies to the container that created during npm install
+COPY . . 
+# finally start the server
+CMD ["npm", "run", "start"]

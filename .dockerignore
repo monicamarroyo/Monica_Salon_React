@@ -1,0 +1,6 @@
+./log
+./tmp
+.git
+*Dockerfile*
+*docker-compose*
+.src/Resources/
