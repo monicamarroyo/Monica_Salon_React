@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "29620539d2e04da4fc56d48f02b65fb6",
+    "revision": "992961f16c497f90426b1a399ff4a3e9",
     "url": "/monicamarroyo/Monica_Salon_React/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/monicamarroyo/Monica_Salon_React/static/css/2.1e66eaca.chunk.css"
   },
   {
-    "revision": "745565be274419af5536",
+    "revision": "f7127911963bc86cb67e",
     "url": "/monicamarroyo/Monica_Salon_React/static/css/main.0e63b2fe.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/monicamarroyo/Monica_Salon_React/static/js/2.8e076ab1.chunk.js"
   },
   {
-    "revision": "745565be274419af5536",
-    "url": "/monicamarroyo/Monica_Salon_React/static/js/main.c3dd96d1.chunk.js"
+    "revision": "f7127911963bc86cb67e",
+    "url": "/monicamarroyo/Monica_Salon_React/static/js/main.b49e8c22.chunk.js"
   },
   {
     "revision": "e3384164a5f997ee8f0d",
