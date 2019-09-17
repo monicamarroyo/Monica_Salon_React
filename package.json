@@ -2,6 +2,7 @@
   "name": "clean-body",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://github.com/monicamarroyo/Monica_Salon_React",
   "dependencies": {
     "@material-ui/core": "^3.6.2",
     "@material-ui/icons": "^3.0.1",
@@ -41,7 +42,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "browserslist": [
     ">0.2%",
@@ -50,6 +53,7 @@
     "not op_mini all"
   ],
   "devDependencies": {
+    "gh-pages": "^2.1.1",
     "svg-sprite-loader": "^4.1.3"
   }
 }
