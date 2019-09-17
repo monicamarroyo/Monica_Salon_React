@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/monicamarroyo/Monica_Salon_React/static/css/main.0e63b2fe.chunk.css",
+    "main.js": "/monicamarroyo/Monica_Salon_React/static/js/main.c3dd96d1.chunk.js",
+    "main.js.map": "/monicamarroyo/Monica_Salon_React/static/js/main.c3dd96d1.chunk.js.map",
+    "runtime~main.js": "/monicamarroyo/Monica_Salon_React/static/js/runtime~main.92a4114b.js",
+    "runtime~main.js.map": "/monicamarroyo/Monica_Salon_React/static/js/runtime~main.92a4114b.js.map",
+    "static/css/2.1e66eaca.chunk.css": "/monicamarroyo/Monica_Salon_React/static/css/2.1e66eaca.chunk.css",
+    "static/js/2.8e076ab1.chunk.js": "/monicamarroyo/Monica_Salon_React/static/js/2.8e076ab1.chunk.js",
+    "static/js/2.8e076ab1.chunk.js.map": "/monicamarroyo/Monica_Salon_React/static/js/2.8e076ab1.chunk.js.map",
+    "index.html": "/monicamarroyo/Monica_Salon_React/index.html",
+    "precache-manifest.a0760f044765eb151b66e0e46f2cf9b4.js": "/monicamarroyo/Monica_Salon_React/precache-manifest.a0760f044765eb151b66e0e46f2cf9b4.js",
+    "service-worker.js": "/monicamarroyo/Monica_Salon_React/service-worker.js",
+    "static/css/2.1e66eaca.chunk.css.map": "/monicamarroyo/Monica_Salon_React/static/css/2.1e66eaca.chunk.css.map",
+    "static/css/main.0e63b2fe.chunk.css.map": "/monicamarroyo/Monica_Salon_React/static/css/main.0e63b2fe.chunk.css.map",
+    "static/media/Header.scss": "/monicamarroyo/Monica_Salon_React/static/media/brick2.f7fe712c.jpg",
+    "static/media/building.jpg": "/monicamarroyo/Monica_Salon_React/static/media/building.608c3e12.jpg",
+    "static/media/Stylist.scss": "/monicamarroyo/Monica_Salon_React/static/media/stylist6.3d4b888e.jpg"
+  }
+}
